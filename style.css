@@ -143,7 +143,7 @@ body{
   padding-bottom: 100px;
 }
 .features-content{
-  margin-left: 10%;
+  margin-left: 8%;
   margin-top: 100px;
 }
 .features-content h3{
@@ -202,8 +202,7 @@ padding-top: 20px;
 
 /* portfolio-section */
 .portfolio-container{
-  margin-left: 10%;
-
+  margin-left:8%;
   margin-bottom: 100px;
 }
 .portfolio-attention{

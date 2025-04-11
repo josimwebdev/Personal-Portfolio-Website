@@ -1,4 +1,12 @@
  /* media-query */
+ @media (max-width:1450px){
+  .features-content{
+    margin-left: 5%;
+  }
+  .portfolio-container{
+    margin-left:5%;
+  }
+ }
  @media (max-width:800px){
   .hero-container{
     display: flex;
