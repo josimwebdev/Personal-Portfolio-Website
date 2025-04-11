@@ -53,6 +53,17 @@
   header #toggler:checked ~ .navbar {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   } 
+  .skill-container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+  }
+  .skills-content{
+    width: 92%;
+  }
+  .experience{
+    width: 92%;
+  }
 }
   @media (max-width: 495px){
     .hero-image img{
