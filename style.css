@@ -234,6 +234,10 @@ padding-top: 20px;
  box-shadow: rgba(119, 119, 132, 0.1) 0px 4px 16px, rgba(130, 130, 139, 0.1) 0px 8px 24px, rgba(109, 109, 128, 0.1) 0px 16px 56px;
  padding: 20px;
  border-radius: 8px;
+ transition: all .4s ease-in-out;
+}
+.portfolio-content:hover{
+background-color: #1A1D20;
 }
 .portfolio-content h2{
   color: #B4BECC;
@@ -251,9 +255,9 @@ padding-top: 20px;
 .skill-container{
   display: flex;
   padding-left: 8%;
+  padding-bottom: 100px;
 }
 .skills-content{
-  border: 1px solid red;
   width: 42%;
 }
 .skills h2{
@@ -366,26 +370,27 @@ padding-top: 20px;
 .experirnce{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, auto));
-  gap: 20px;
-  border: 1px solid red;
+  row-gap: 40px;
+  column-gap: 30px;
   width: 50%;
   padding-left: 40px;
 }
 .experience-time{
   display: flex;
-  border: 1px solid red;
-  padding: 50px 30px;
+  padding: 40px 30px;
   gap: 30px;
   box-shadow: rgba(119, 119, 132, 0.1) 0px 4px 16px, rgba(130, 130, 139, 0.1) 0px 8px 24px, rgba(109, 109, 128, 0.1) 0px 16px 56px;
   transition: all 0.4s ease-in-out;
   border-radius: 8px;
+  justify-content: center;
+  align-items: center;
 }
 .experience-time:hover{
   background-color: #1A1D20;
   transform: scale(1.1);
 }
 .experience-time a i{
-  font-size: 60px;
+  font-size: 70px;
   color: #fff;
   
 }
