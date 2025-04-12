@@ -58,11 +58,13 @@
     flex-direction: column;
     padding-left: 5%;
   }
-  .skills-content{
+.skills-content{
     width: 92%;
   }
-  .experience{
+.experirnce{
     width: 92%;
+    margin-top: 50px;
+    padding-left: 0;
   }
 }
   @media (max-width: 495px){
