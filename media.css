@@ -99,6 +99,17 @@
     .next {
       margin-left: 10px;
     }
+
+    .blog-container{
+      margin-top: 110vh;
+      margin-left: 5%;
+      margin-right: 5%;
+      padding-bottom: 50px;
+      padding-top: 50px;
+    }
+    .first-blog img{
+      width: 280px;
+    }
 }
   @media (max-width: 495px){
     .hero-image img{
@@ -126,4 +137,13 @@
   .social-media-2 {
     justify-content: center
   }
-}
+  }
+  @media (max-width: 400px){
+    .blog-container{
+      margin-top: 200vh;
+    }
+    .first-blog img{
+      width: 220px;
+    }
+  }
+

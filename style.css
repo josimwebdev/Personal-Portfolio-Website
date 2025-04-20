@@ -426,7 +426,7 @@ padding-top: 10px;
 
 
 .testimonial-section {
-  padding: 60px 20px;
+  padding: 0 20px;
   max-width: 1600px; 
   margin: auto;
 }
@@ -435,7 +435,7 @@ padding-top: 10px;
   text-align: center;
   font-size: 40px;
   margin-bottom: 40px;
-  color: #fff;
+  color: #B4BECC;
 }
 
 .testimonial-container {
@@ -512,22 +512,23 @@ padding-top: 10px;
 
 .position{
   font-size: 20px;
-  color: #C4CFDE;
+  color: #B4BECC;
   font-weight: 900;
   padding: 10px 0;
   letter-spacing: 1px;
 }
 .company {
   font-size: 20px;
-  color: #C4CFDE;
+  color: #B4BECC;
   font-weight: 400;
 }
 
 .testimonial-right {
   width: 70%;
-  height: 40vh;
+  height: auto;
   padding-left: 20px;
   padding-top: 20px;
+  padding-bottom: 30px;
   text-align: left;
   padding-right: 20px;
 box-shadow: rgba(119, 119, 132, 0.1) 0px 4px 16px, rgba(130, 130, 139, 0.1) 0px 8px 24px, rgba(109, 109, 128, 0.1) 0px 16px 56px;
@@ -543,7 +544,7 @@ border-radius: 8px;
 
 .date {
   font-size: 18px;
-  color: #ccc;
+  color: #B4BECC;
   margin: 5px 0 10px;
 }
 
@@ -555,7 +556,7 @@ border-radius: 8px;
 .desc {
   margin-top: 18px;
   line-height: 25px;
-  color: #ddd;
+  color: #B4BECC;
 }
 
 .nav {
@@ -580,4 +581,83 @@ border-radius: 8px;
 
 .next {
   margin-left: 10px;
+}
+
+/* blog-section */
+.blog-container{
+  margin-left: 8%;
+  margin-right: 8%;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+.blog-section{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  row-gap: 40px;
+  column-gap: 30px;
+}
+.blog-container h2{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 0;
+  color: #FF014F;
+  text-transform: uppercase;
+}
+.blog-heading{
+  font-size: 50px;
+  text-align: center;
+  color: #B4BECC;
+  font-weight: 900;
+  padding: 10px 0;
+  letter-spacing: 1px;
+  padding-bottom: 30px;
+}
+.first-blog{
+  padding-left: 40px;
+  box-shadow: rgba(119, 119, 132, 0.1) 0px 4px 16px, rgba(130, 130, 139, 0.1) 0px 8px 24px, rgba(109, 109, 128, 0.1) 0px 16px 56px;
+  border-radius: 8px;
+  transition: all .4s ease-in-out;
+}
+.first-blog:hover{
+background-color: #1A1D20;
+}
+.name-time{
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+.name-time h3{
+  font-size: 18px;
+  color: #FF014F;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+.name-time h4{
+  color: #B4BECC;
+}
+.first-blog img{
+  padding-top: 30px;
+  width: 320px;
+  transition: .4s ease-in-out;
+}
+.first-blog img:hover{
+  transform: scale(1.1);
+}
+.first-blog h2{
+  color: #B4BECC;
+  font-size: 20px;
+  text-transform:capitalize;
+  text-align: left;
+  padding-right: 30px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  font-weight: 800;
+  transition: all.4s ease-in-out;
+  cursor: pointer;
+}
+.first-blog h2:hover{
+  color: #FF014F;
 }
