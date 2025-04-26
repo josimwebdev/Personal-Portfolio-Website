@@ -799,3 +799,42 @@ transform: scale(1.1);
   background: #191B1E;
   border: none;
 }
+
+/* footer-section */
+.footer-section{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+  margin-top: 100px;
+  padding-left: 8%;
+  padding-right: 8%;
+  gap: 30px;
+}
+.foote-icon{
+  margin-top: 50px;
+}
+.footer-find-out{
+  margin-top: 50px;
+}
+.quick-link{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.quick-link a{
+  font-size: 20px;
+  font-weight: 500;
+  color: #B4BECC;
+  text-decoration: none;
+}
+.quick-link .footer-title{
+  font-size: 22px;
+  font-weight: 600;
+  color: #FF014F;
+}
+.copyright{
+  text-align: center;
+  color: #B4BECC;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 50px;
+}
